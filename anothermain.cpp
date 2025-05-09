@@ -8,6 +8,6 @@ int main(int argc, char** argv) {
         std::cout << "Dung theo chuan" << std::endl;
     }
     else if (argv[argc] != nullptr) {
-        std::cout << "Compiler/OS/runtime lib nay bi loan roi (toi nghi vay)" << std::endl;
+        std::cout << "Compiler/OS/runtime lib nay bi loan roi (toi nghi vay), hoac runtime da qua cu" << std::endl;
     }
 }
